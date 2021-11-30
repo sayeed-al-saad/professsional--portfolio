@@ -47,3 +47,40 @@ h1{
 #Bold{
     color: darkorange;
 }
+.Third{
+    background-image: url(
+        images/png-3.png
+    );
+    background-size: 30%;
+    background-position: -180px;
+    background-repeat: no-repeat;
+    padding: 10%;
+}
+.course{
+    display: flex;
+    
+    
+}
+.course h3{
+    color: crimson;
+}
+.course div{
+    box-shadow: 10px 5px 25px paleturquoise;
+    height: 80%;
+    margin: 20px;
+}
+#b-course{
+    border-left: 10px solid;
+    border-image: linear-gradient( 180deg,
+        red,gold
+    );
+    border-image-slice: 1;
+    padding: 10px;
+}
+#a-course{
+    border-left: 10px solid;
+    border-image: linear-gradient( 180deg,navy,cyan
+    );
+    border-image-slice: 1;
+    padding: 10px;
+}
